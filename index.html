@@ -359,9 +359,9 @@ a.ref:hover{background:var(--accent-soft);}
         <div class="search-results" id="searchResults"></div>
       </div>
       <button class="aide-tab-btn" id="aideTabBtn" data-target="ch-aide">
-        🎒 Aide de jeu <span class="aide-count" id="aideCount">0</span>
+        Aide de jeu <span class="aide-count" id="aideCount">0</span>
       </button>
-      <button class="theme-toggle" id="themeToggle">🌗 Thème</button>
+      <button class="theme-toggle" id="themeToggle">Thème</button>
       <div class="version-tag">Livret : v9<br>Jeu de gestion du risque</div>
     </div>
     <nav class="chapter-nav" id="chapterNav">
@@ -426,17 +426,16 @@ a.ref:hover{background:var(--accent-soft);}
   <details class="accordion" id="sec-I-A" open>
     <summary><span class="sec-num">I.A</span> Vue d'ensemble &amp; But du jeu</summary>
     <div class="accordion-body">
-      <p>Une fiche de six quêtes en propose trois, tirées au hasard en début de partie. <strong>La partie se termine dès que les trois quêtes tirées sont accomplies.</strong></p>
+      <p>Trois quêtes parmis celles existantes sont tirées au hasard en début de partie. <strong>La partie se termine dès que les trois quêtes tirées sont accomplies.</strong></p>
       <div class="term-block"><span class="term-label">Défaite —</span><span class="term-body">vous perdez la partie si, à la fin d'un tour, les ressources de votre inventaire sont à zéro, ou si vous n'avez plus assez de ressources pour emprunter un seul chemin ni interagir avec la case où vous vous trouvez.</span></div>
       <p class="subhead">Contenu du jeu</p>
       <ul class="pip-list">
         <li>1 carte de scénario</li>
-        <li>5 dés : D4, D6, D8, D10, D12</li>
-        <li>1 D20 (pour les tirages d'équipement)</li>
+        <li>6 dés : D4, D6, D8, D10, D12, D20</li>
         <li>1 fiche Inventaire</li>
         <li>1 fiche des quêtes</li>
         <li>1 pion joueur (2 en variante à deux joueurs)</li>
-        <li>Des perles de ressources, en réserve commune</li>
+        <li>Des perles de ressources</li>
       </ul>
     </div>
   </details>
@@ -449,7 +448,7 @@ a.ref:hover{background:var(--accent-soft);}
         <li>Placez votre pion sur un Campement, déterminé aléatoirement s'il en existe plusieurs sur la carte.</li>
         <li>Prenez une arme tirée au hasard parmi les cinq et ajoutez-la à votre inventaire.</li>
         <li>Prenez 10 ressources dans votre inventaire.</li>
-        <li>Tirez trois quêtes au hasard parmi les six disponibles (<a class="ref" href="#sec-I-H" data-nav="sec-I-H">I.H</a>) ; elles définissent votre condition de victoire pour la partie.</li>
+        <li>Tirez trois quêtes au hasard (<a class="ref" href="#sec-I-H" data-nav="sec-I-H">I.H</a>) ; elles définissent votre condition de victoire pour la partie.</li>
       </ol>
       <p class="subhead">Résumé d'un tour</p>
       <p>À votre tour, vous pouvez :</p>
@@ -777,7 +776,7 @@ a.ref:hover{background:var(--accent-soft);}
     <summary><span class="sec-num">B</span> Quêtes</summary>
     <div class="accordion-body">
       <div class="roll-panel">
-        <button class="roll-btn" id="rollQuest">🎲 Tirer une quête</button>
+        <button class="roll-btn" id="rollQuest">Tirer une quête</button>
         <div class="draw-slot" id="questDrawSlot"><span class="draw-empty">Aucun tirage.</span></div>
       </div>
       <p class="subhead">Quêtes suivies</p>
@@ -791,7 +790,7 @@ a.ref:hover{background:var(--accent-soft);}
     <summary><span class="sec-num">C</span> Équipements</summary>
     <div class="accordion-body">
       <div class="roll-panel">
-        <button class="roll-btn secondary" id="rollEquip">🎲 Tirer un équipement (D20)</button>
+        <button class="roll-btn secondary" id="rollEquip">Tirer un équipement (D20)</button>
         <div class="draw-slot" id="equipDrawSlot"><span class="draw-empty">Aucun tirage.</span></div>
       </div>
       <p class="subhead">Équipements suivis</p>
